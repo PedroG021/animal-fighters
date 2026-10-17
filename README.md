@@ -33,7 +33,7 @@ This project was developed as the Final Project for **CS50's Introduction to Pro
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/YOUR-USERNAME/animal-fighters.git
+   git clone https://github.com/PedroG021/animal-fighters.git
    cd animal-fighters
    ```
 2. **Create a virtual environment** (keeps the project's libraries isolated)
