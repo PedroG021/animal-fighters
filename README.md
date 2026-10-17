@@ -1,3 +1,5 @@
+🇺🇸 English | 🇧🇷 [Português](README.pt-BR.md)
+
 # Animal Fighters
 
 #### Video Demo: <https://youtu.be/HC67CvCWaks?si=LUa3g9nLADjX3Ni3>
@@ -13,16 +15,18 @@ This project was developed as the Final Project for **CS50's Introduction to Pro
 - **Text Effects**: All the fight effects and battle design were made using literal strings and helpful libraries like `sys` and `time`.
 - **CLI Validation**: The project includes custom validation routines to handle empty answers, numeric option boundaries, and non-positive quantities, so the program does not crash on invalid input.
 - **Robust Unit Testing**: Includes pytest tests for the main game logic, using monkeypatch and capsys.
+
 ---
 
 ## File Structure & System Architecture
 - **`project.py`**: The entry point of the project. Contains the main CLI loop (`main()`), menu options selection (`get_menu_choice()`), champion choice (`choose_your_champion()`), and all the battle flow with (`start_battle()`), (`user_action_sequence()`), and (`cpu_action_sequence()`).
-  
+
 - **`champions.py`**: Handles the champions/fighters structures, with representational dicts like (`animals`) and (`animals_play_number`), such as the (`__init__()`) special method that generates the fighters, the (`create_champions()`) class method which returns the champions to be created, (`get_cpu_champion()`) and (`get_user_champion()`) to access the corresponding values inside the dicts, fight options with (`fight_options()`), the damage count for each round with (`damage_count()`), and the winner message with (`display_winner()`).
-  
+
 - **`helper.py`**: This module keeps functions that help the project run more smoothly, like getting a valid number with (`get_number()`), the RPG text effect of the game with (`rpg_text_effect()`), and all the functions that represent the visual battle flow of what's happening and how it is shown to the user, with (`battle_text_round_begin()`), (`battle_text_round_end()`), (`battle_formatter()`), and (`visual_action_to_do()`).
-  
+
 - **`test_project.py`**: The function tester module. Includes tests for logical functions, creational functions, input validation, side-effects, `monkeypatch`, and `capsys`.
+
 ---
 
 ## Design Decisions
@@ -47,24 +51,23 @@ This project was developed as the Final Project for **CS50's Introduction to Pro
    python -m venv .venv
    ```
 3. **Activate the virtual environment**
-   ```bash
    - Windows (PowerShell): `.venv\Scripts\Activate.ps1`
    - Windows (CMD): `.venv\Scripts\activate.bat`
    - Linux / macOS: `source .venv/bin/activate`
-   ```
-5. **Install the dependencies**
+   
+4. **Install the dependencies**
    ```bash
    pip install -r requirements.txt
    ```
-6. **Run the tests** (optional, but recommended)
+5. **Run the tests** (optional, but recommended)
    ```bash
    pytest test_project.py
    ```
-7. **Start the game**
+6. **Start the game**
    ```bash
    python project.py
    ```
-8. **Play**: choose `3` in the menu, pick your animal by its playable number (1-5), and on each turn type `1` (basic attack), `2` (skill) or `3` (run away). Whoever reaches 0 health first loses.
+7. **Play**: choose `3` in the menu, pick your animal by its playable number (1-5), and on each turn type `1` (basic attack), `2` (skill) or `3` (run away). Whoever reaches 0 health first loses.
 
 ---
 
@@ -93,7 +96,6 @@ https://docs.python.org/3/library/typing.html
 Basic Help For The README Template File:
 https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax |
 https://www.freecodecamp.org/news/how-to-structure-your-readme-file/
-
 
 ---
 
