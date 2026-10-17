@@ -100,7 +100,7 @@ class Champions:
         return Champions.get_champion(cpu_champion_number)
 
     @staticmethod
-    def get_champion(champion):
+    def get_champion(champion: int) -> "Champions":
         champion = Champions.animals_play_number.get(champion, "")
         champion = Champions.animals[champion]
         champion = Champions(
