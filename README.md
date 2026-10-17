@@ -47,22 +47,24 @@ This project was developed as the Final Project for **CS50's Introduction to Pro
    python -m venv .venv
    ```
 3. **Activate the virtual environment**
+   ```bash
    - Windows (PowerShell): `.venv\Scripts\Activate.ps1`
    - Windows (CMD): `.venv\Scripts\activate.bat`
    - Linux / macOS: `source .venv/bin/activate`
-4. **Install the dependencies**
+   ```
+5. **Install the dependencies**
    ```bash
    pip install -r requirements.txt
    ```
-5. **Run the tests** (optional, but recommended)
+6. **Run the tests** (optional, but recommended)
    ```bash
    pytest test_project.py
    ```
-6. **Start the game**
+7. **Start the game**
    ```bash
    python project.py
    ```
-7. **Play**: choose `3` in the menu, pick your animal by its playable number (1-5), and on each turn type `1` (basic attack), `2` (skill) or `3` (run away). Whoever reaches 0 health first loses.
+8. **Play**: choose `3` in the menu, pick your animal by its playable number (1-5), and on each turn type `1` (basic attack), `2` (skill) or `3` (run away). Whoever reaches 0 health first loses.
 
 ---
 
