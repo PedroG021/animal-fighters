@@ -13,7 +13,7 @@ This project was developed as the Final Project for **CS50's Introduction to Pro
 
 ## Features
 - **Text Effects**: All the fight effects and battle design were made using literal strings and helpful libraries like `sys` and `time`.
-- **CLI Validation**: The project includes custom validation routines to handle empty answers, numeric option boundaries, and non-positive quantities, so the program does not crash on invalid input.
+- **CLI Validation**: The project includes custom validation routines to handle empty answers, non-numeric input, and out-of-range options, so the program does not crash on invalid input.
 - **Robust Unit Testing**: Includes pytest tests for the main game logic, using monkeypatch and capsys.
 
 ---

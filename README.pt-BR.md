@@ -13,7 +13,7 @@ Este projeto foi desenvolvido como Projeto Final do **CS50's Introduction to Pro
 
 ## Funcionalidades
 - **Efeitos de Texto**: Todos os efeitos de luta e o design da batalha foram feitos com strings literais e bibliotecas úteis como `sys` e `time`.
-- **Validação de CLI**: O projeto inclui rotinas de validação personalizadas para tratar respostas vazias, limites de opções numéricas e quantidades não positivas, de modo que o programa não quebre com entradas inválidas.
+- **Validação de CLI**: O projeto inclui rotinas de validação personalizadas para tratar respostas vazias, entradas não numéricas e entradas fora do escopo, de modo que o programa não quebre com entradas inválidas.
 - **Testes Unitários Robustos**: Inclui testes com pytest para a lógica principal do jogo, usando monkeypatch e capsys.
 
 ---
