@@ -17,8 +17,11 @@ This project was developed as the Final Project for **CS50's Introduction to Pro
 
 ## File Structure & System Architecture
 - **`project.py`**: The entry point of the project. Contains the main CLI loop (`main()`), menu options selection (`get_menu_choice()`), champion choice (`choose_your_champion()`), and all the battle flow with (`start_battle()`), (`user_action_sequence()`), and (`cpu_action_sequence()`).
+  
 - **`champions.py`**: Handles the champions/fighters structures, with representational dicts like (`animals`) and (`animals_play_number`), such as the (`__init__()`) special method that generates the fighters, the (`create_champions()`) class method which returns the champions to be created, (`get_cpu_champion()`) and (`get_user_champion()`) to access the corresponding values inside the dicts, fight options with (`fight_options()`), the damage count for each round with (`damage_count()`), and the winner message with (`display_winner()`).
+  
 - **`helper.py`**: This module keeps functions that help the project run more smoothly, like getting a valid number with (`get_number()`), the RPG text effect of the game with (`rpg_text_effect()`), and all the functions that represent the visual battle flow of what's happening and how it is shown to the user, with (`battle_text_round_begin()`), (`battle_text_round_end()`), (`battle_formatter()`), and (`visual_action_to_do()`).
+  
 - **`test_project.py`**: The function tester module. Includes tests for logical functions, creational functions, input validation, side-effects, `monkeypatch`, and `capsys`.
 ---
 
