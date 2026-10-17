@@ -31,6 +31,9 @@ This project was developed as the Final Project for **CS50's Introduction to Pro
 
 ## Step-by-Step Guide
 
+### Prerequisites
+- Python 3.12+
+
 1. **Clone the repository**
    ```bash
    git clone https://github.com/PedroG021/animal-fighters.git
@@ -57,51 +60,6 @@ This project was developed as the Final Project for **CS50's Introduction to Pro
    python project.py
    ```
 7. **Play**: choose `3` in the menu, pick your animal by its playable number (1-5), and on each turn type `1` (basic attack), `2` (skill) or `3` (run away). Whoever reaches 0 health first loses.
-
----
-
-## Setup & Execution
-
-### Prerequisites
-- Python 3.12+
-
-### Installation
-
- Install necessary libraries:
-```bash
-pip install -r requirements.txt
-```
-
----
-
-### Running the Application
-
-```bash
-python project.py
-```
-
----
-
-### Running Tests
-
-```bash
-pytest test_project.py
-```
-
----
-
-## Usage
-
-When you run `python project.py`, a menu is shown:
-
-```text
-Type 0 to close the program.
-Type 1 to understand the game.
-Type 2 to read the rules.
-Type 3 to start playing the game.
-```
-
-Type the corresponding number of what you want to do.
 
 ---
 
