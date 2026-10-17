@@ -1,26 +1,19 @@
-# Ambiente virtual
 .venv/
 venv/
 env/
 
-# Python
 __pycache__/
 *.py[cod]
 *.egg-info/
 build/
 dist/
 
-# Testes e ferramentas
 .pytest_cache/
 .mypy_cache/
 .coverage
 htmlcov/
 
-# Editores e sistema operacional
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
-
-# Variáveis de ambiente (caso use no futuro)
-.env
